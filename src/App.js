@@ -17,7 +17,31 @@ function App() {
         .then((response) => response.json())
         .then((result) => setCharacters(result));
     }, []);
-  };
+
+    if (characters === undefined) {
+      return <>Still loading...</>;
+    }
+  
+    function increment() {
+      if (index >= characters.length - 1) {
+        setIndex(0);
+      } else {
+        setIndex((index) => index + 1);
+      }
+    }
+  }
+
+  function decrement() {
+    if (index <= 0) {
+      setIndex(characters.length - 1);
+    } else {
+      setIndex((index) => index - 1);
+    }
+  }
+
+  function random() {
+    setIndex(Math.floor(Math.random() * characters.length));
+  }
 }
 
 export default App;
