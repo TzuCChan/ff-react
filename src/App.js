@@ -8,24 +8,16 @@ import imgLogo from "./img/FFI_logo.png";
 import Buttons from "./Buttons";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  function App(props) {
+    const [characters, setCharacters] = useState(false);
+    const [index, setIndex] = useState(0);
+  
+    useEffect(() => {
+      fetch("https://www.moogleapi.com/api/v1/characters")
+        .then((response) => response.json())
+        .then((result) => setCharacters(result));
+    }, []);
+  };
 }
 
 export default App;
