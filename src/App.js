@@ -1,5 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from "react";
+import React from "react";
+import Leftbox from "./Leftbox";
+import Image from "./Image";
+import Rightbox from "./Rightbox";
+import imgLogo from "./img/FFI_logo.png";
+import Buttons from "./Buttons";
 
 function App() {
   return (
