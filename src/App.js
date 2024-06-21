@@ -42,6 +42,34 @@ function App() {
   function random() {
     setIndex(Math.floor(Math.random() * characters.length));
   }
+
+  return (
+    <body className="whole">
+      <h1>
+        <img src={imgLogo} alt="logo" />
+      </h1>
+      <div className="mainBox">
+        <div className="characterBio">
+          <div className="box1">
+            <Leftbox characters={characters} index={index} />
+          </div>
+          <div className="box2" id="img">
+            <Image characters={characters} index={index} />
+          </div>
+          <div className="box3">
+            <Rightbox characters={characters} index={index} />
+          </div>
+        </div>
+        <div>
+          <Buttons
+            increment={increment}
+            decrement={decrement}
+            random={random}
+          />
+        </div>
+      </div>
+    </body>
+  );
 }
 
 export default App;
