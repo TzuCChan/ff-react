@@ -12,6 +12,11 @@ function Buttons(props) {
       <button className="rightButton" onClick={props.increment}>
         <img src={moogleRight} className="buttonImg" alt="rightarrow" />
       </button>
+      <button className="randomButton" onClick={props.random}>
+        <img src={randomButton} className="buttonImg" alt="random" />
+      </button>
     </div>
   )
 }
+
+export default Buttons
