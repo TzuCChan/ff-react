@@ -1,3 +1,14 @@
+body {
+  text-align: center;
+  font-family: 'Girassol', cursive;
+  background: url("./img/ffbggif.gif") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-shadow: 2px 2px 2px black;
+}
+
 .App {
   text-align: center;
 }
