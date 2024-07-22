@@ -28,6 +28,10 @@ p {
   padding: 10px;
 }
 
+.whole{
+  background-image: white;
+}
+
 /* .App {
   text-align: center;
 }
