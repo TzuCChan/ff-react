@@ -18,6 +18,16 @@ p {
   border-radius: 5px;
 }
 
+.description{
+  padding: 1em;
+}
+
+.charImage {
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 /* .App {
   text-align: center;
 }
