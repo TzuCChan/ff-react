@@ -32,6 +32,18 @@ p {
   background-image: white;
 }
 
+.leftSide {
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.rightSide {
+  font-size: 20px;
+  text-align: center;
+  height: 100%;
+}
+
 /* .App {
   text-align: center;
 }
