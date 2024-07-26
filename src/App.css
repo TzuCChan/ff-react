@@ -49,6 +49,13 @@ p {
   width: 33%;
 }
 
+#img {
+  width: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* .App {
   text-align: center;
 }
