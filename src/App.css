@@ -56,6 +56,17 @@ p {
   align-items: center;
 }
 
+.characterBio {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  font-family: 'Girassol', cursive;
+  font-weight: bold;
+  font-size: 2em;
+  color: whitesmoke;
+}
+
 /* .App {
   text-align: center;
 }
