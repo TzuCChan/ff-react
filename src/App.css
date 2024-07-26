@@ -44,6 +44,11 @@ p {
   height: 100%;
 }
 
+.box1, .box2, .box3  {
+  text-align: center;
+  width: 33%;
+}
+
 /* .App {
   text-align: center;
 }
