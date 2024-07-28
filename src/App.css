@@ -67,6 +67,11 @@ p {
   color: whitesmoke;
 }
 
+.charImage {
+  height: 6em;
+  width: 5em;
+}
+
 /* .App {
   text-align: center;
 }
