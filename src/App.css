@@ -72,6 +72,10 @@ p {
   width: 5em;
 }
 
+.slides {
+  height: 300px;
+}
+
 /* .App {
   text-align: center;
 }
