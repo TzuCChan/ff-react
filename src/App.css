@@ -76,6 +76,15 @@ p {
   height: 300px;
 }
 
+.mainBox {
+  width: 100%;
+  padding: 20px 0;
+  position: relative;
+  height: 450px;
+  text-align: center;
+  margin: 0 auto;
+}
+
 /* .App {
   text-align: center;
 }
