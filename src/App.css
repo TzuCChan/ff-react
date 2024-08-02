@@ -85,6 +85,18 @@ p {
   margin: 0 auto;
 }
 
+.leftButton, .rightButton, .randomButton {
+  background: rgba(255, 255, 255, 0.);
+  cursor: pointer;
+  margin: 0 5px;
+  top: 50%;
+  border: 0;
+  background: transparent;
+  border: 2px solid whitesmoke;
+  border-radius: 5px;
+  padding: 10px;overflow-x: ;
+}
+
 /* .App {
   text-align: center;
 }
