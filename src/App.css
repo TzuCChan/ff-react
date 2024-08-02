@@ -97,6 +97,14 @@ p {
   padding: 10px;overflow-x: ;
 }
 
+.buttonImg{
+  height: 10%;
+}
+
+.slides:hover {
+  transform: scale(2);
+}
+
 /* .App {
   text-align: center;
 }
