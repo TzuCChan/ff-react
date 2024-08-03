@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import { useEffect, useState } from "react";
 import React from "react";
 import Leftbox from "./Leftbox";
@@ -7,8 +7,7 @@ import Rightbox from "./Rightbox";
 import imgLogo from "./img/FFI_logo.png";
 import Buttons from "./Buttons";
 
-function App() {
-  function App(props) {
+function App(props) {
     const [characters, setCharacters] = useState(false);
     const [index, setIndex] = useState(0);
   
@@ -29,7 +28,6 @@ function App() {
         setIndex((index) => index + 1);
       }
     }
-  }
 
   function decrement() {
     if (index <= 0) {
